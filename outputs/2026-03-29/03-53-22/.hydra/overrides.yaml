@@ -1,0 +1,9 @@
+- +experiment=re10k
+- trainer.max_steps=50000
+- data_loader.train.batch_size=2
+- dataset.test_chunk_interval=10
+- checkpointing.resume=true
+- model.encoder.lowest_feature_resolution=4
+- checkpointing.every_n_train_steps=1000
+- checkpointing.pretrained_model=checkpoints/idesplat-re10k-256x256-view2-renamed.ckpt
+- output_dir=checkpoints/re10k-256x256-IDESplat_retrain

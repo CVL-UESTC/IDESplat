@@ -1,0 +1,10 @@
+- +experiment=re10k
+- trainer.max_steps=300000
+- data_loader.train.batch_size=2
+- dataset.test_chunk_interval=10
+- checkpointing.resume=true
+- model.encoder.lowest_feature_resolution=4
+- checkpointing.every_n_train_steps=10000
+- checkpointing.pretrained_monodepth=pretrained/depth_anything_v2_vits.pth
+- checkpointing.pretrained_mvdepth=pretrained/gmflow-scale1-things-e9887eda.pth
+- output_dir=checkpoints/re10k-256x256-IDESplat

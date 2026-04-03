@@ -1,0 +1,8 @@
+- +experiment=re10k
+- dataset.test_chunk_interval=10
+- model.encoder.upsample_factor=4
+- model.encoder.lowest_feature_resolution=4
+- model.encoder.monodepth_vit_type=vits
+- checkpointing.pretrained_model=checkpoints/re10k-256x256-IDESplat_retrain/checkpoints/epoch_0-step_20000.ckpt
+- mode=test
+- dataset/view_sampler=evaluation

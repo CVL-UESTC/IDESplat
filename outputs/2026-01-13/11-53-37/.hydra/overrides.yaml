@@ -1,0 +1,8 @@
+- +experiment=acid
+- dataset.test_chunk_interval=1
+- model.encoder.upsample_factor=4
+- model.encoder.lowest_feature_resolution=4
+- model.encoder.monodepth_vit_type=vits
+- checkpointing.pretrained_model=checkpoints/idesplat-re10k-256x256-view2.ckpt
+- mode=test
+- dataset/view_sampler=evaluation
