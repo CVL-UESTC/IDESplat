@@ -80,7 +80,8 @@ cd ./ops_smm
 ./make.sh
 ```
 
-
+## Pre-trained Models
+We provide model weights trained on three datasets: RE10K, ACID, and DL3DV. These checkpoints are available on [Hugging Face](https://huggingface.co/hflonglong/IDESplat).
 
 ## Evaluation
 
