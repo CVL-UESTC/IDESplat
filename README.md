@@ -50,6 +50,13 @@ Boosting Units (DPBUs). Each unit combines multi-level warp results in a multipl
 single warp. As IDESplat iteratively updates the depth candidates and boosts the probability estimates, the depth map becomes more precise,
 leading to accurate Gaussian means.
 
+#### Comparison of depth maps:
+
+<p align="center">
+  <a href="">
+    <img src="figures/visual_depth_map.png" alt="IDESplat Overview" width="100%">
+  </a>
+</p>
 
 
 ## Datasets
