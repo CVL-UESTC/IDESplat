@@ -118,6 +118,11 @@ bash ./scripts/re10k_for_dtu_idesplat_evaluation.sh
 
 ## Training
 
+Before training, you need to download the pre-trained weights for [UniMatch](https://github.com/autonomousvision/unimatch) and [Depth Anything V2](https://github.com/DepthAnything/Depth-Anything-V2), and place them into the pretrained folder.
+```bash
+wget https://s3.eu-central-1.amazonaws.com/avg-projects/unimatch/pretrained/gmflow-scale1-things-e9887eda.pth -P pretrained
+wget https://huggingface.co/depth-anything/Depth-Anything-V2-Small/resolve/main/depth_anything_v2_vits.pth -P pretrained
+```
 
 ```bash
 # Train on the RealEstate10K dataset
